@@ -1,1 +1,1 @@
-Can add more functions by updating the 'order' list
+Can add more functions by updating the 'orders' list
