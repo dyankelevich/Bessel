@@ -5,11 +5,11 @@ from scipy.special import jn # jn(n, x) es J_n(x)
 
 x = np.linspace(0, 10, 500)
 
-ordenes = [0]
+order = [0]
 
 plt.figure(figsize=(12, 8))
 
-for n in ordenes:
+for n in order:
     plt.plot(x, jn(n, x), label=f'$J_{n}(x)$')
 
 
