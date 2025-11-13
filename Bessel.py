@@ -1,6 +1,6 @@
 import numpy as np
 import matplotlib.pyplot as plt
-from scipy.special import jn # jn(n, x) es J_n(x)
+from scipy.special import jn
 
 
 x = np.linspace(0, 10, 500)
